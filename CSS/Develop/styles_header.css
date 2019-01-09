@@ -1,0 +1,97 @@
+
+/*--------------------------------------------------------------------- Header  ---------------------------------------------------*/
+#header{
+    padding-top: 0;
+    padding-bottom: 0.5em;
+    font-family: 'Roboto', cursive;
+    padding-right: 5%;
+
+}
+
+#header a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+
+
+}
+/*--------------------------------------------------------------------- Header_Buttons ---------------------------------------------------*/
+
+[id*="top_menu-"]{
+    transition-duration: 0.2s;
+    white-space:  nowrap;
+
+
+
+}
+
+[id*="top_menu-"]:hover {
+    color: white;
+    font-weight: 600;
+    transform: scale(1.2);
+
+}
+
+
+[id*="top_menu-"]:active {
+    transform: translateY(4px);
+}
+
+#top_menu-2{
+    position: relative;
+    right: 1em;
+}
+
+#top_menu-4{
+    position: relative;
+    left: 1em;
+}
+
+#top_menu-6{
+    position: relative;
+    left: 0.7em;
+}
+
+
+/*--------------------------------------------------------------------- For mobile phones:  ---------------------------------------------------*/
+
+
+@media only screen and (orientation: portrait) {
+
+    #header a{
+        color: white;
+        font-weight: bold;
+        font-size: 1.2em;
+        text-align: right;
+   }
+
+    [id*="top_menu-"]:active {
+        position: relative;
+    }
+
+
+    #top_menu-1{
+        left: 2.8em;
+    }
+    #top_menu-2{
+        left: 2em;
+    }
+    #top_menu-3{
+        left: 2.1em;
+    }
+    #top_menu-4{
+        left: 2.8em;
+    }
+    #top_menu-5{
+        left: 2em;
+    }
+    #top_menu-6{
+        left: 2.4em;
+    }
+
+
+
+
+
+}
+

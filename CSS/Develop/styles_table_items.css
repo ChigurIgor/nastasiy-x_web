@@ -1,0 +1,234 @@
+/*#item img{*/
+    /*border-radius: 1em;*/
+    /*width: 100%;*/
+    /*height: 12em;*/
+/*}*/
+
+
+
+#table [id*="item-"] {
+    /*background-color: transparent;*/
+    font-size:1.5em;
+    min-height: 2.5em;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    margin-right: 0.2em;
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+    /*border-radius: 0.5em;*/
+    /*box-shadow: 0 0 1em rgba(0,0,0,0.5);*/
+    transition-duration: 0.2s;
+}
+#table [id*="item-"] img{
+    width: 100%;
+    height: 15em;
+}
+
+
+
+
+#bigImgRow{
+    height: 100vh;
+}
+
+#bigImg{
+
+}
+
+#bigImg img {
+    height: 90vh;
+    width: 90vh;
+    margin-top: 1.5em;
+    /*border-top-left-radius: 10em;*/
+    /*border-bottom-right-radius: 10em;*/
+    /*border-style: solid;*/
+    /*border-color: white;*/
+    /*border-width: 0.5em;*/
+}
+#bigImgX img{
+    height: 5em;
+    width: 5em;
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+    alignment: left;
+}
+
+#arrowLeft{
+    height: 38em;
+    width: 38em;
+    padding-top: 1.5em;
+    alignment: center;
+}
+#arrowLeft img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 30%;
+    margin: auto;
+}
+
+#arrowRight{
+    height: 38em;
+    width: 38em;
+    padding-top: 1.5em;
+    alignment: center;
+
+}
+
+#arrowRight img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 30%;
+    margin: auto;
+}
+
+
+/*--------------------------------------------------------------------- For mobile phones:  ---------------------------------------------------*/
+
+
+@media only screen and (orientation: portrait)  {
+
+
+
+    #table [id*="item-"] {
+        /*background-color: transparent;*/
+        font-size:1.5em;
+        min-height: 2.5em;
+        margin-bottom: 2em;
+        padding: 1vh;
+
+        /*border-style: solid;*/
+        /*border-width: 1px;*/
+        /*border-radius: 0.5em;*/
+        /*box-shadow: 0 0 1em rgba(0,0,0,0.5);*/
+        transition-duration: 0.2s;
+        width: 150%;
+        position: relative;
+        right: 5vh;
+    }
+
+
+
+    [id*="item-"]  img {
+        /*width: 12em;*/
+        /*height: 10em*/
+
+        /*float: right;*/
+        width: 100%;
+        height: 6em;
+    }
+
+    .news_img{
+        height: 40vh;
+        width: 30vh;
+        margin: 0 5vh 5vh 5vh;
+        cursor: pointer;
+
+    }
+    #news_ttl {
+        color: red;
+        /*background-color: gray;*/
+        font-size: 1.5em;
+        margin: 1.5em;
+    }
+
+    #news_content{
+        color: black;
+        /*background-color: gray;*/
+        font-size: 1.2em;
+        margin: 0 5vh 5vh 5vh;
+
+    }
+
+    #picture{
+        height: 38em;
+        width: 38em;
+        padding-top: 1.5em;
+        alignment: center;
+    }
+    #picture img{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 30%;
+        margin: auto;
+    }
+
+
+
+
+    #bigImgSR{
+        min-height: 60vh;
+        margin: 0 0 5vh 0;
+    }
+
+    #bigImg img {
+        height: 80vh;
+        width: 120%;
+    }
+    #bigImg  {
+        position: relative;
+        bottom: 15vh;
+
+
+    }
+
+    #bigImgXSR{
+        height: 10vh;
+        margin: 0 0 5vh 0;
+    }
+    #bigImgX img{
+        height: 10vh;
+        width: 10vh;
+        padding-top: 1.5em;
+        alignment: center;
+        z-index: 8;
+
+        position: absolute;
+        bottom: 25vh;
+        /*background-color: red;*/
+
+    }
+
+
+    #arrowLeftImg img{
+        height: 10vh;
+        width: 10vh;
+        padding-top: 1.5em;
+        alignment: center;
+        z-index: 8;
+
+        position: absolute;
+        bottom: 25vh;
+        /*background-color: red;*/
+
+    }
+
+    #arrowRightImg img{
+        height: 10vh;
+        width: 10vh;
+        padding-top: 1.5em;
+        alignment: center;
+        z-index: 8;
+
+        position: absolute;
+        bottom: 25vh;
+        /*background-color: red;*/
+
+    }
+
+}
+
+

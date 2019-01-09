@@ -1,0 +1,9 @@
+login    nastasiy-x-il   develop-chigur
+password masterminde+1   masterminde+1
+
+
+домены
+
+https://my.freenom.com/clientarea.php?action=domains
+
+chigur.ig@gmail.com	masterminde+1

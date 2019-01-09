@@ -1,0 +1,29 @@
+#footer{
+padding-top: 8em;
+    background:#6d6e73;
+
+}
+
+#footer_img-1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 8em;
+    width: 10em;
+}
+
+    #footer_img-2{
+        position: absolute;
+        bottom: 0;
+             left:50%;
+        transform: translate(-50%, 0);
+        height: 8em;
+    }
+
+#footer_img-3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 8em;
+    width: 10em;
+}

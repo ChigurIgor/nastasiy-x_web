@@ -1,0 +1,158 @@
+body{
+    font-family: 'Mali', cursive;
+    font-weight: 300;
+    min-height: 100vh;
+    width: 100%;
+    background: url("../bg_1.png") 10% 10% no-repeat / cover;;
+    overflow-y: scroll;
+}
+
+
+
+#row-1 {
+    /*background: white;*/
+    min-height: 20vh;
+    position: relative;
+}
+
+#subrow1-1{
+    /*min-height: 7vh;*/
+    /*margin-top: 6vh;*/
+}
+#hcont{
+    position: fixed;
+    z-index: 5;
+}
+
+#hcont a{
+    /*z-index: 5;*/
+}
+
+#header{
+}
+
+#subrow1-2{
+    /*background: yellow;*/
+    /*min-height: 7vh;*/
+}
+
+
+#row-2{
+    min-height: 75vh;
+    background-color: rgb(91,105,171);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#sd_menu{
+    z-index: 6;
+}
+
+title{
+}
+#title p{
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+    min-width: 100%;
+}
+
+[id*="sm_item-"] p{
+    color: white;
+    font-size: 1.5em;
+    text-align: left;
+    min-width: 100%;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+#sm_item-1 p{
+margin-top: 2em;
+}
+
+#content {
+    background-color: rgb(160, 168, 205);
+    margin: 2.5%;
+    min-height: 90%;
+}
+#table{
+    /*background-color: yellow;*/
+}
+
+
+#placeholder{
+    font-size:1.5em;
+    min-height: 2.5em;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    margin-right: 0.2em;
+}
+#placeholder img{
+    width: 100%;
+    height: 20em;
+}
+
+#ph_title{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+#ph_text{
+    margin-top: 2em;
+    color: white;
+    font-size: 0.8em;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/*--------------------------------------------------------------------- For mobile phones:  ---------------------------------------------------*/
+
+
+@media only screen and (orientation: portrait) {
+
+
+    #row-2{
+        min-height: 75vh;
+        background-color: rgb(91,105,171);
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    #title p{
+        color: white;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2em;
+        min-width: 100%;
+    }
+
+    #ph_title{
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+    }
+    #ph_text{
+        margin-top: 2em;
+        color: white;
+        font-size: 0.6em;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+}
+
+
+
+

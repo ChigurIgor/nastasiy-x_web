@@ -1,0 +1,105 @@
+body{
+    font-family: 'Mali', cursive;
+    font-weight: 300;
+    min-height: 100vh;
+    width: 100%;
+    background: url("../bg_1.png") 10% 10% no-repeat / cover;;
+    overflow-y: scroll;
+
+
+}
+
+
+
+#row-1 {
+    /*background: white;*/
+    /*min-height: 20vh;*/
+
+}
+
+#subrow1-1{
+    /*min-height: 7vh;*/
+    /*margin-top: 6vh;*/
+}
+#hcont{
+    position: fixed;
+    z-index: 5;
+}
+#header{
+}
+
+#subrow1-2{
+  margin-top: 5vh;
+}
+title{
+
+}
+#title p{
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#row-2{
+    min-height: 40em;
+
+}
+#content{
+    margin-top: 1em;
+    margin-bottom: 5em;
+    height: 35em;
+    background: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+/*--------------------------------------------------------------------- For mobile phones:  ---------------------------------------------------*/
+
+
+@media only screen and (orientation: portrait) {
+
+    #title p{
+        color: white;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2em;
+        min-width: 100%;
+        white-space: nowrap;
+    }
+#row-1{
+    margin: 0;
+}
+    #subrow1-1{
+        margin: 0;
+    }
+    #subrow1-2{
+        margin: 0;
+    }
+
+    #content{
+        margin-top: 1em;
+        margin-bottom: 5em;
+        height: 35em;
+        background: white;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+
+}
+
+
+
+
+
+
+

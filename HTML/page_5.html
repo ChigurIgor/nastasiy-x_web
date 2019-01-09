@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nastasiy.X Paint Team</title>
+    <link rel="icon" type="image/png" href="../Images/Icons/icon_logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="../CSS/styles_page_5.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/Develop/styles_footer.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/Develop/styles_header.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/Develop/styles_table_items.css" rel="stylesheet" type="text/css">
+
+
+
+
+    <!--<link href="CSS/styles_animation_gif.css" rel="stylesheet" type="text/css">-->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../Scripts/Develop/script_create_header.js"></script>
+    <script src="../Scripts/script_create_footer.js"></script>
+    <script src="../Scripts/Develop/script_create_catalog_items.js"></script>
+    <script src="../Scripts/Develop/scr_sendmsg.js"></script>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+
+
+<div class="container-fluid" >
+
+
+    <div id="row-1" class="row">
+        <div id="hcont" class="col-12">
+            <div id="subrow1-1" class="row">
+                <div id="header" class="col-5 offset-7">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="row-2" class="row">
+        <div id="left_col"class="col-7">
+            <div id="title" class="row"> <p>Contacts</p> </div>
+            <div id="slogan" class="row"> <p>We use colors, but we write with feelings.</p> </div>
+            <div id="phone" class="row"> <p>+972543037799</p> </div>
+            <div id="email" class="row"> <p>nastasiyx.art@gmail.com</p> </div>
+            <div id="group-1" class="row"> <a href="https://www.facebook.com/groups/nastasiy.x.art/"> <p>facebook.com/groups/nastasiy.x.art/</p></a></div>
+            <!--<div id="group-2" class="row"> <a href="https://www.facebook.com/groups/nastasiy.x.art/"> <p>facebook.com/groups/nastasiy.x.art/</p></a> </div>-->
+
+
+
+
+        </div>
+
+        <div id="right_col" class="col-5">
+            <div id="ms-1" class="row"> <input type="text" id="nameMsg" name="FirstName" placeholder="Name"></div>
+            <div id="ms-2" class="row"> <input type="text" id="emailMsg" name="Email" placeholder="Email"></div>
+            <div id="ms-3" class="row"> <input type="text" id="phoneMsg"name="Telephone" placeholder="Telephone"></div>
+            <div id="ms-4" class="row"> <textarea          id="txtMsg"name="Message" placeholder="Message"></textarea></div>
+            <div id="btn_send" class="row" onclick="sendmsg()">
+               <div class="col-12">
+                   <p>Send</p>
+                <!--<form id="contact_form" method="post" action="../PHP/send_email.php">-->
+
+                    <!--<input type="submit" class="form_control submit" value="Send message">-->
+                <!--</form>-->
+
+               </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<script>
+    createHeader();
+    // createCatalogElements();
+
+
+
+</script>
+
+
+
+</body>
+
+</html>
+
+
+
+<!--<div class="row">-->
+    <!--<div   id="row_2" class="col-md-8 offset-md-2"  >-->
+        <!--&lt;!&ndash;<img src="Images/Painters_work/3.jpg" alt="Main picture" width="50%"  height="100%" >&ndash;&gt;-->
+        <!--<div class="row">-->
+            <!--<div id="title_2" class="col-md-12" align="center">-->
+                <!--<p>Contacts</p>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="row">-->
+            <!--<img src="../Images/Support/icon_phone.png" alt="Group in VK" style="width:5em;height:5em;">-->
+            <!--<div    class="col-md-4"  >-->
+                <!--<div class="row">-->
+
+                    <!--<p>Phone</p>-->
+                <!--</div>-->
+
+                <!--<div class="row">-->
+                    <!--<p> 0543037799</p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+        <!--</div>-->
+
+        <!--<div class="row">-->
+            <!--<img src="../Images/Support/icon_email.png" alt="Group in VK" style="width:5em;height:5em;">-->
+            <!--<div    class="col-md-4"  >-->
+                <!--<div class="row">-->
+
+                    <!--<p>Email</p>-->
+                <!--</div>-->
+
+                <!--<div class="row">-->
+                    <!--<p>nastasiyx.art@gmail.com</p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+        <!--</div>-->
+
+
+
+        <!--<div class="row">-->
+
+            <!--<img src="../Images/Support/icon_facebook_48.png" alt="Group in VK" style="width:5em;height:5em;">-->
+            <!--<div    class="col-md-4"  >-->
+                <!--<div class="row">-->
+
+                    <!--<p>Groups</p>-->
+                <!--</div>-->
+
+                <!--<div class="row">-->
+                    <!--<a href="https://www.facebook.com/groups/nastasiy.x.art/"> <p>facebook.com/groups/nastasiy.x.art/</p></a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    <!--</div>-->
+<!--</div>-->

@@ -1,0 +1,165 @@
+body{
+    font-family: 'Mali', cursive;
+    font-weight: 300;
+    /*background: url("../Images/background.jpg") 70% 70% no-repeat / cover;*/
+    /*padding: 2em;*/
+    min-height: 100vh;
+    /*text-shadow: 2px 2px whitesmoke;*/
+
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------- row_1 ---------------------------------------------------*/
+
+#row_1{
+    background: url(../Images/Support/20.jpg) no-repeat;
+    margin-top: 6em;
+    background-size: 100%;
+    min-height: 30em;
+}
+
+#title{
+    color: red;
+    font-size: 2.5em;
+    text-shadow: 2px 2px whitesmoke;
+
+    min-height: 2.5em;
+    margin-bottom: 0;
+    padding-top: 2em;
+    font-family: 'Mali', cursive;
+    /*background-color: blue;*/
+}
+#tagline{
+    color: red;
+    font-size: 2.5em;
+    text-shadow: 2px 2px whitesmoke;
+    min-height: 2.5em;
+    margin-bottom: 0;
+    padding-top: 2em;
+    font-family: 'Mali', cursive;
+    /*background-color: blue;*/
+}
+
+/*--------------------------------------------------------------------- row_2 ---------------------------------------------------*/
+
+#row_2{
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+#title_2{
+    color: red;
+    font-size: 3em;
+    min-height: 2.5em;
+    margin-bottom: 1em;
+    padding-top: 2em;
+    font-family: 'Mali', cursive;
+}
+
+
+/*--------------------------------------------------------------------- footer ---------------------------------------------------*/
+
+#footer{
+    /*background-color: rgba(22, 204, 255,0.5);*/
+    /*font-family: Alice;*/
+    font-size: 1em;
+    color: blue;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+#footer a{
+    color: red;}
+
+#link_group_1 p{
+    /*color: red;*/
+    /*font-size: 1.5em;*/
+    /*min-height: 2.5em;*/
+    /*margin-bottom: 1em;*/
+    /*padding-top: 1em;*/
+    /*font-family: 'Mali', cursive;*/
+}
+
+#link_group_1{
+    background-color: transparent;
+    /*font-size:1.5em;*/
+    /*min-height: 2.5em;*/
+    margin-bottom: 0;
+    padding-top: 0.1em;
+    padding-bottom: 1em;
+
+    /*margin-right: 0.2em;*/
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+    /*border-radius: 0.5em;*/
+    /*box-shadow: 0 0 1em rgba(0,0,0,0.5);*/
+    transition-duration: 0.2s;
+}
+
+#link_group_1:hover {
+    /*background-color: gray;*/
+    /*color: white;*/
+    /*font-weight: 600;*/
+    /*transform: translateY(4px);*/
+    transform: scale(1.2);
+
+}
+
+#link_group_1:active {
+    /*background-color: #595959;*/
+    box-shadow: 0 0 1em rgba(0,0,0,0.0);
+    /*transform: translateY(4px);*/
+    transform: scale(0.9);
+
+}
+
+
+#link_group_2 p{
+    /*color: red;*/
+    /*font-size: 1.5em;*/
+    /*min-height: 2.5em;*/
+    /*margin-bottom: 1em;*/
+    /*padding-top: 1em;*/
+    /*font-family: 'Mali', cursive;*/
+}
+
+#link_group_2{
+    background-color: transparent;
+    /*font-size:1.5em;*/
+    /*min-height: 2.5em;*/
+    margin-bottom: 0;
+    padding-top: 0.1em;
+    padding-bottom: 1em;
+
+    /*margin-right: 0.2em;*/
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+    /*border-radius: 0.5em;*/
+    /*box-shadow: 0 0 1em rgba(0,0,0,0.5);*/
+    transition-duration: 0.2s;
+}
+
+#link_group_2:hover {
+    /*background-color: gray;*/
+    /*color: white;*/
+    /*font-weight: 600;*/
+    /*transform: translateY(4px);*/
+    transform: scale(1.2);
+
+}
+
+#link_group_2:active {
+    /*background-color: #595959;*/
+    box-shadow: 0 0 1em rgba(0,0,0,0.0);
+    /*transform: translateY(4px);*/
+    transform: scale(0.9);
+
+}

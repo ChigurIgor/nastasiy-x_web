@@ -1,0 +1,128 @@
+body{
+    font-family: 'Mali', cursive;
+    font-weight: 300;
+    min-height: 100vh;
+    width: 100%;
+    background: url("../bg_1.png") 10% 10% no-repeat / cover;;
+    overflow-y: scroll;
+}
+
+
+
+#subrow1-1{
+    /*min-height: 7vh;*/
+    /*margin-top: 6vh;*/
+}
+#hcont{
+    position: fixed;
+    z-index: 5;
+}
+
+
+#subrow1-1{
+    /*min-height: 7vh;*/
+    /*margin-top: 6vh;*/
+}
+
+#header{
+}
+
+#subrow1-2{
+    /*background: yellow;*/
+    /*min-height: 7vh;*/
+}
+
+#row-2{
+    min-height: 75vh;
+    /*background-color: rgb(91,105,171);*/
+    background-color: transparent;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+title{
+}
+#title p{
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+    min-width: 100%;
+}
+
+
+[id*="item8-"] {
+
+}
+
+[id*="item8-"] img{
+    width: 100%;
+    height: 50vh;
+    padding:0.5em 0.5em 0.5em 0.5em;
+
+}
+
+[id*="item4-"] img{
+    width: 100%;
+    height: 50vh;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+
+}
+
+[id*="item3-"] img{
+    width: 100%;
+    height: 100vh;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+}
+
+
+/*--------------------------------------------------------------------- For mobile phones:  ---------------------------------------------------*/
+
+
+@media only screen and (orientation: portrait) {
+
+    #title p{
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2em;
+        min-width: 100%;
+    }
+
+
+    [id*="item8-"] {
+
+    }
+
+    [id*="item8-"] img{
+        width: 100%;
+        height: 15vh;
+        padding:0.5em 0.5em 0.5em 0.5em;
+
+    }
+
+    [id*="item4-"] img{
+        width: 100%;
+        height: 15vh;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+
+    }
+
+    [id*="item3-"] img{
+        width: 100%;
+        height: 30vh;
+        padding: 0.5em 1.5em 0.5em 1.5em;
+    }
+
+}
+
+
+
+
+
+
+

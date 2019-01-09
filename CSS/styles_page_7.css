@@ -1,0 +1,187 @@
+body{
+    font-family: 'Mali', cursive;
+    font-weight: 300;
+    min-height: 100vh;
+    width: 100%;
+    background: url("../bg_1.png") 10% 10% no-repeat / cover;;
+    overflow-y: scroll;
+
+
+}
+
+
+
+#row-1 {
+    /*background: white;*/
+    /*min-height: 20vh;*/
+
+
+}
+
+#subrow1-1{
+    /*min-height: 7vh;*/
+    /*margin-top: 6vh;*/
+}
+#hcont{
+    position: fixed;
+    z-index: 5;
+}
+#header{
+}
+
+#subrow1-2{
+    /*background: yellow;*/
+    /*min-height: 7vh;*/
+}
+
+#row-2{
+    min-height: 75vh;
+    background-color: transparent;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+
+#title p{
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+    min-width: 100%;
+}
+
+
+[id*="item8-"] {
+    padding:1em 1em 1em 1em;
+}
+
+[id*="item4-"] {
+padding:1em 1em 1em 1em;
+
+}
+
+
+[id*="item8-"] .container{
+    height: 50vh;
+    width: 100%;
+    background-color: red;
+}
+
+[id*="item4-"] .container{
+    height: 50vh;
+    width: 100%;
+
+    background-color: deepskyblue;
+}
+
+
+.news_img{
+    height: 40vh;
+    width: 30vh;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+
+.news_ttl{
+    color: black;
+    /*background-color: gray;*/
+    font-size: 2em;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+
+
+
+}
+
+[id*="item8-"] .news_img{
+    height: 40vh;
+    width: 60vh;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+
+
+
+/*--------------------------------------------------------------------- For mobile phones:  ---------------------------------------------------*/
+
+
+@media only screen and (orientation: portrait) {
+    #title{
+        width: 100%;
+        margin: 0;
+    }
+
+    #title p{
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2em;
+        min-width:80%;
+    }
+
+
+    [id*="item8-"] {
+    }
+
+    [id*="item4-"] {
+
+    }
+
+
+    [id*="item8-"] .container{
+        height: 30vh;
+        width: 105%;
+        background-color: red;
+        margin-left: 1em;
+    }
+
+    [id*="item4-"] .container{
+        height: 30vh;
+        width: 150%;
+
+        background-color: deepskyblue;
+        padding: 0;
+    }
+
+
+    .news_img{
+        height: 20vh;
+        width: 10vh;
+        cursor: pointer;
+        margin-left: 0.5em;
+    }
+
+    [id*="item8-"] .news_img{
+        height: 20vh;
+        width: 12vh;
+        margin-top: 5vh;
+        cursor: pointer;
+    }
+    .news_ttl{
+        color: black;
+        /*background-color: gray;*/
+        font-size: 1em;
+        position: relative;
+        top: 50%;
+        left: 60%;
+        cursor: pointer;
+        transform: translate(-50%, -50%);
+
+
+
+
+    }
+
+
+}
+
+
+
+
